@@ -20,14 +20,14 @@ public class Hw5Task5{
      
      System.out.println("Rotated 180 degrees:");
      
-     for (int i=5;i>=0;i--){
+     for (int i=5;i>=0;i--){ //rotate 180
         for(int j=5;j>=0;j--){
         System.out.print(a[i][j]+" ");} 
      System.out.println();}
      
      System.out.println("Rotated 270 degrees:");
      
-     for(int i=5; i>=0;i--){
+     for(int i=5; i>=0;i--){ //rotate 270
         for(int j=5; j>=0; j--){
         System.out.print(a[j][i]+" ");}
      System.out.println();}

@@ -1,0 +1,26 @@
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.Random;
+
+public class Hw5Task6{
+     public static void main(String []args){
+     Random rand = new Random();
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Enter the length of the array:");
+     int size = rand.nextInt(10)+1;//sc.nextInt();
+     int [] a = new int [size];
+     //System.out.println("Fill the array:"); for Scaner if needed
+     for (int i=0; i<size; i++){ //array created
+     a[i]=rand.nextInt(100)+1;//sc.nextInt();
+     }
+     System.out.println("Your array is: " );
+     for (int i=0;i<size;i++){ //array printed 
+     System.out.print(a[i]+ " ");
+     }  
+     System.out.println();
+     System.out.println("Mirrored array is: ");
+     for (int i=0;i<size;i++){
+     System.out.print(a[size-1-i]+ " ");
+     }
+     }
+     }
